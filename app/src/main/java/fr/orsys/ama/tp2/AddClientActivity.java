@@ -109,6 +109,5 @@ public class AddClientActivity extends AppCompatActivity {
             Log.i(TAG, "un client de plus");
             finish();
         }
-        // TODO placer une boite de diaglogue
     }
 }

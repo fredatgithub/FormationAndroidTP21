@@ -28,6 +28,7 @@ public class ClientAdapter extends ArrayAdapter<Client> {
      * la View retournée est la ligne qui correspond à un client
      * Elle sera affichée dans la ListView
      */
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -48,7 +49,7 @@ public class ClientAdapter extends ArrayAdapter<Client> {
         {
             imageView.setImageResource(R.drawable.woman);
         }
-        
+
         textView.setText(leClient.getFirstName() + " " + leClient.getLastName());
         return convertView;
     }
